@@ -26,15 +26,6 @@ All the datasets used for the project can be found in [model/datasets](model/dat
 > Note: To use custom datasets to train the model, the last column in the dataset has to cointain the target.
 
 ## Execution instructions
-## Build and simulate system
-
-Compiles all the VHDL files and simulates the system in the specified time.
-
-```bash
-$ make 
-```
-
-To check the simulation results, open *.ghw* file in **GTKWave**.
 
 ### Train decision tree
 
@@ -42,10 +33,4 @@ Trains the decision tree using the specified dataset, and creates the memory lay
 
 ```bash
 $ ~/Ranger/model/ python3 src/forest.py
-```
-
-### Clean
-
-```bash
-$ make clean
 ```
